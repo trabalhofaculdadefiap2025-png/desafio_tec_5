@@ -12,7 +12,7 @@ def inicializar_gemini():
     Inicializa o Vertex AI com diagnóstico cirúrgico de arquivos para o Windows.
     """
     project_id = os.getenv("GCP_PROJECT_ID")
-    location = os.getenv("GCP_LOCATION", "us-central1")
+    location = os.getenv("GCP_LOCATION", "")
     cred_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
 
     if not project_id:
