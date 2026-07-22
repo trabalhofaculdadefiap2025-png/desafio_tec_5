@@ -1,0 +1,11 @@
+# Interface Gráfica (MVP)
+streamlit==1.32.0
+
+# Visão Computacional (YOLO)
+ultralytics==8.1.0
+opencv-python-headless
+pillow
+
+# Inteligência Artificial (GCP Vertex AI)
+google-cloud-aiplatform
+python-dotenv
