@@ -42,8 +42,8 @@ def rodar_deteccao_yolo(caminho_imagem: str):
 
         # Executa o workflow exatamente como configurado na sua conta
         resultado_api = client.run_workflow(
-            workspace_name="alessandra23333-gmail-com",
-            workflow_id="aws-icon-detector-improved-fmnjg",
+            workspace_name="",
+            workflow_id="",
             images={"image": caminho_imagem},
             use_cache=True
         )
